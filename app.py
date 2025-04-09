@@ -9,8 +9,8 @@ index_json = [
     {
         "code": "00",
         "label": {
-            "et": "stuff",
-            "en": "stuff"
+            "et": "Kinnisvara",
+            "en": "Real estate"
         },
         "datasets": [
             {
