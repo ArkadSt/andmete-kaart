@@ -1,0 +1,749 @@
+{
+  "components": {
+    "layerlist": {
+      "settings": {
+        "removable": true,
+        "display": true,
+        "open": true,
+        "userMaps": false,
+        "systemMaps": false,
+        "editor": {
+          "geomAdd": true,
+          "geomEdit": true,
+          "geomDelete": true,
+          "draw": true,
+          "modify": true,
+          "move": true,
+          "pasteObject": true,
+          "snap": true,
+          "fit": true,
+          "undo": true,
+          "redo": true,
+          "upload": true,
+          "square": true
+        }
+      },
+      "tree": [],
+      "category": "panel"
+    },
+    "authentication": {
+      "category": "tools",
+      "settings": {
+        "removable": true
+      },
+      "module": "main"
+    },
+    "bookmarks": {
+      "category": "tools",
+      "settings": {
+        "removable": true
+      },
+      "module": "main"
+    },
+    "help": {
+      "category": "tools",
+      "settings": {
+        "file": "manual_stat.pdf",
+        "overlay": true
+      }
+    },
+    "measure": {
+      "category": "tools",
+      "settings": {
+        "removable": true
+      },
+      "module": "main"
+    },
+    "basemap": {
+      "activeLayer": "Halltoonides kaart",
+      "category": "other",
+      "settings": {
+        "removable": true
+      },
+      "tree": [
+        {
+          "folderId": "Hall_kaart",
+          "group": "simple",
+          "icon": "/xgis2/static/img/ALUS12.png",
+          "layers": [
+            {
+              "fatLayerId": "kaart_mv_6000000",
+              "maxResolution": 1679.999372800339,
+              "minResolution": 559.9999776000121,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_2000000",
+              "maxResolution": 559.9999776000121,
+              "minResolution": 280.0001287999305,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_1000000",
+              "maxResolution": 280.0001287999305,
+              "minResolution": 224.00015903991414,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_800000",
+              "maxResolution": 224.00015903991414,
+              "minResolution": 168.00018927989782,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_600000",
+              "maxResolution": 168.00018927989782,
+              "minResolution": 117.6002164958831,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_420000",
+              "maxResolution": 117.6002164958831,
+              "minResolution": 84.00023463987331,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_300000",
+              "maxResolution": 84.00023463987331,
+              "minResolution": 42.000257319861056,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_150000",
+              "maxResolution": 42.000257319861056,
+              "minResolution": 33.600261855858605,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_120000",
+              "maxResolution": 33.600261855858605,
+              "minResolution": 28.000264879856967,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_100000",
+              "maxResolution": 28.000264879856967,
+              "minResolution": 21.000268659854928,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_75000",
+              "maxResolution": 21.000268659854928,
+              "minResolution": 14.000272439852884,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_50000",
+              "maxResolution": 14.000272439852884,
+              "minResolution": 6.720276371050761,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_24000",
+              "maxResolution": 6.720276371050761,
+              "minResolution": 4.200277731850026,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_15000",
+              "maxResolution": 4.200277731850026,
+              "minResolution": 3.3602781854497805,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_12000",
+              "maxResolution": 3.3602781854497805,
+              "minResolution": 2.8002784878496167,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_10000",
+              "maxResolution": 2.8002784878496167,
+              "minResolution": 1.6802790926492903,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_6000",
+              "maxResolution": 1.6802790926492903,
+              "minResolution": 1.1202793950491268,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_4000",
+              "maxResolution": 1.1202793950491268,
+              "minResolution": 0.5602796974489634,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "fatLayerId": "kaart_mv_2000",
+              "maxResolution": 0.5602796974489634,
+              "minResolution": 0,
+              "opacity": 1,
+              "open": true,
+              "type": "layer",
+              "info": false
+            },
+            {
+              "attributeRedig": false,
+              "copyright": "",
+              "fatLayerId": "inf_etak_01",
+              "filtered": "",
+              "geomRedig": false,
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "metainfoENG": "",
+              "metainfoEST": "",
+              "minResolution": 0,
+              "nameENG": "",
+              "nameEST": "",
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "searchField1": "",
+              "searchField2": "",
+              "type": "layer"
+            },
+            {
+              "attributeRedig": false,
+              "copyright": "",
+              "fatLayerId": "inf_etak_02",
+              "filtered": "",
+              "geomRedig": false,
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "metainfoENG": "",
+              "metainfoEST": "",
+              "minResolution": 0,
+              "nameENG": "",
+              "nameEST": "",
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "searchField1": "",
+              "searchField2": "",
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_03",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_04",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_05",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_06",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_07",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_08",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_09",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_10",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_11",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_12",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_13",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_14",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_15",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_16",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_17",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_18",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_19",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_20",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_21",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_22",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_23",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_24",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_25",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_26",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            },
+            {
+              "fatLayerId": "inf_etak_27",
+              "info": true,
+              "invisible": true,
+              "maxResolution": 6.719996371201961,
+              "minResolution": 0,
+              "onoff": false,
+              "opacity": 0,
+              "open": true,
+              "type": "layer"
+            }
+          ],
+          "nameENG": "Greyscale map",
+          "nameEST": "Halltoonides kaart",
+          "open": true,
+          "type": "folder"
+        },
+        {
+          "fatLayerId": "kaardita",
+          "maxResolution": 279.9998488000817,
+          "minResolution": 0,
+          "opacity": 1,
+          "open": false,
+          "type": "layer",
+          "info": false
+        }
+      ],
+      "module": "main"
+    },
+    "contacts": {
+      "category": "other",
+      "settings": {
+        "text": "<a href=\"https://maaruum.ee\" target=\"_blank\">X-GIS. Maa- ja Ruumiamet. Kõik õigused kaitstud.</a> <br>e-post: <a href=\"mailto:kaardirakendus@maaruum.ee\" target=\"_blank\">kaardirakendus@maaruum.ee</a> tel: 6650 600",
+        "text_ENG": "<a href=\"https://xgis.maaamet.ee/xgis2/page/app/stat\" target=\"_blank\">Statistics Estonia's map application</a><br><a href=\"https://www.stat.ee/en\" target=\"_blank\">Statistics Estonia.</a> E-mail: <a href=\"mailto:stat@stat.ee\" target=\"_blank\">stat@stat.ee</a><br> \n<a href=\"https://maaruum.ee\" target=\"_blank\">X-GIS. Land and Spatial Development Board. All rights reserved.</a> <br>e-mail: <a href=\"mailto:kaardirakendus@maaruum.ee\" target=\"_blank\">kaardirakendus@maaruum.ee</a> phone: 6 750 866",
+        "text_EST": "<a href=\"https://xgis.maaamet.ee/xgis2/page/app/stat\" target=\"_blank\">Statistikaameti kaardirakendus</a><br><a href=\"https://www.stat.ee\" target=\"_blank\">Statistikaamet.</a> E-mail: <a href=\"mailto:stat@stat.ee\" target=\"_blank\">stat@stat.ee</a><br>\n<a href=\"https://maaruum.ee\" target=\"_blank\">X-GIS. Maa- ja Ruumiamet. Kõik õigused kaitstud.</a> <br>Kasutajatugi: <a href=\"mailto:kaardirakendus@maaruum.ee\" target=\"_blank\">kaardirakendus@maaruum.ee</a> tel: 665 0600"
+      }
+    },
+    "coordinates": {
+      "category": "other",
+      "settings": {
+        "removable": true,
+        "formats": {
+          "origin": true,
+          "geographic1": true,
+          "geographic2": false,
+          "geographic3": false,
+          "altitude": false
+        },
+        "labels": {
+          "labelX": "X",
+          "labelY": "Y",
+          "labelB": "B",
+          "labelL": "L",
+          "labelH": "H"
+        },
+        "altidudeUrl": {
+          "href": ""
+        }
+      },
+      "module": "main"
+    },
+    "copyright": {
+      "category": "other",
+      "settings": {
+        "removable": false,
+        "text": "Maa- ja Ruumiamet, Statistikaamet 2025"
+      },
+      "module": "main"
+    },
+    "navigation": {
+      "category": "other",
+      "settings": {
+        "removable": true,
+        "zoominout": true,
+        "history": true,
+        "positioning": true,
+        "positioningCompass": true
+      },
+      "module": "main"
+    },
+    "scaleBar": {
+      "category": "other",
+      "settings": {
+        "removable": true,
+        "scales": [
+          {
+            "text": "1:50000",
+            "value": 50000,
+            "checked": true
+          },
+          {
+            "text": "1:100000",
+            "value": 100000,
+            "checked": true
+          },
+          {
+            "text": "1:150000",
+            "value": 150000,
+            "checked": true
+          },
+          {
+            "text": "1:200000",
+            "value": 200000,
+            "checked": true
+          },
+          {
+            "text": "1:300000",
+            "value": 300000,
+            "checked": true
+          },
+          {
+            "text": "1:500000",
+            "value": 500000,
+            "checked": true
+          }
+        ],
+        "lineScale": true,
+        "numericScale": true,
+        "customScale": true
+      },
+      "module": "main"
+    },
+    "appList": {
+      "category": "panel",
+      "settings": {
+        "removable": true,
+        "externalApps": []
+      },
+      "module": "main"
+    },
+    "appLogo": {
+      "category": "panel",
+      "settings": {
+        "picENG": "/xgis2/mod/ui/0.0.1/statistika/public/static/appStatistikaLogoENG.png",
+        "picEST": "/xgis2/mod/ui/0.0.1/statistika/public/static/appStatistikaLogoEST.png",
+        "urlENG": "https://www.stat.ee/en",
+        "urlEST": "https://www.stat.ee/"
+      }
+    },
+    "deleteAll": {
+      "category": "tools",
+      "module": "main",
+      "settings": {
+        "removable": true
+      }
+    },
+    "langSelect": {
+      "category": "panel"
+    },
+    "statistika": {
+      "category": "other",
+      "settings": {
+        "removable": false,
+        "statistikaService": {
+          "href": "https://www.stat.ee/sites/default/files/vkr/"
+        },
+        "mapService": {
+          "href": "https://kaardiserver.webdb.maaamet.ee/tilemap/wmts/1.0.0/"
+        },
+        "years": [
+          2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021,
+          2022, 2023, 2024, 2025
+        ]
+      },
+      "module": "statistika"
+    }
+  },
+  "measureLengthUnits": [
+    ["m", "2"],
+    ["km", "3"]
+  ],
+  "geomDecimalPlaces": 6,
+  "bbox": [324000, 6375000, 787000, 6635000],
+  "skin": "default",
+  "minFitScale": 10000,
+  "measureAreaUnits": [
+    ["m", "2"],
+    ["ha", "3"],
+    ["km", "4"]
+  ],
+  "decimalPlaces": 2,
+  "toolbarOrder": [
+    "authentication",
+    "bookmarks",
+    "compareMaps",
+    "help",
+    "markPoint",
+    "measure",
+    "print"
+  ],
+  "appId": "prooviylesanne",
+  "projection": "EPSG:3301",
+  "minScale": 50000,
+  "lang": ["et", "en"],
+  "newSkin": "default",
+  "toolbarOrder": [
+    "authentication",
+    "bookmarks",
+    "markPoint",
+    "measure",
+    "deleteAll",
+    "help"
+  ]
+}

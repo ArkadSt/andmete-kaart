@@ -1,0 +1,1 @@
+{"WFS":{"info":{"attributes":[{"name":"TYYP_TEKST"},{"name":"TAHTSUS_T"},{"name":"ELEKTER_T"},{"name":"MUUTMISAEG"},{"name":"KOOD_TEKST"},{"name":"ETAK_ID"}],"href":"http://kaarttest.webdb.maaamet.ee/app7/mit","name":"roobasteed_24T_01,roobasteed_24T_02","type":"WMS","coordExport":true,"title":"ETAK_ID"}},"_fatLayer":{},"maxScale":24000,"minScale":0,"type":"WFS"}

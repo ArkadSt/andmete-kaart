@@ -1,0 +1,1 @@
+{"WFS":{"info":{"attributes":[{"name":"TYYP_TEKST"},{"name":"MUUTMISAEG"},{"name":"KOOD_TEKST"},{"name":"ETAK_ID"}],"href":"http://kaarttest.webdb.maaamet.ee/app7/mit","name":"etak_turbaalad","type":"WMS","coordExport":true,"title":"ETAK_ID"}},"_fatLayer":{},"maxScale":24000,"minScale":0,"type":"WFS"}
