@@ -107,10 +107,10 @@ def get_YS001():
         "0087": 	"Võru maakond"
     }
 
-    # Load the file and skip first 4 metadata rows
+    # Load the file and skip metadata rows
     df_raw = pd.read_excel("Kinnisvara hinnastatistika.xlsx", skiprows=4, skipfooter=3)
 
-    # Rename columns for clarity
+    # Rename columns
     df_raw.columns = ["Aasta", "Maakond", "Tehingute arv", "Kogupind (ha)", "Koguväärtus (eur)"]
 
     # Forward-fill the year column
@@ -118,7 +118,8 @@ def get_YS001():
 
     # Drop rows with region as "KOKKU", "KÕIK KOKKU", or NaN
     df_final = df_raw[~df_raw["Maakond"].isin(["KOKKU", "KÕIK KOKKU"])]
-    # Build the JSON structure
+
+    # Populate data
     for (i, indicator) in json_data["dimensions"][0]["values"].items():
         df_i = df_final[["Aasta", "Maakond", indicator["et"]]]
         for (j, year) in json_data["dimensions"][1]["values"].items():
