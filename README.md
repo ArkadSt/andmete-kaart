@@ -15,3 +15,8 @@ http://127.0.0.1:8000/YS001.json
 Olen tutvunud näidetega ja spefikatsiooniga, ning otsustasin et kasutan Flask JSONide serveerimiseks ning Pandas XLSX parsimiseks. xlsx_parser.py teeb viimast, eemaldab NaN ja teisi ebavajalikke asju, ning pärast seda täidab "data" andmevälja. 
 
 Juurutamiseks kasutasin Docker-it.
+
+Lisaks muutsin `kaardirakendus/application/application.json` failis järgmini välju:
+</br>skin "statistika" -> "default"
+</br>newSkin "statistika" -> "default"
+</br>appId "statistika" -> "prooviylesanne"
